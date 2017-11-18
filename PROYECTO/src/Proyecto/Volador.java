@@ -7,12 +7,9 @@ package Proyecto;
 
 /**
  *
- * @author Admin
+ * @author alvar
  */
-public class Animago {
-    
-    public void Despegar(){}
-    
+public interface Volador {
     
     
     

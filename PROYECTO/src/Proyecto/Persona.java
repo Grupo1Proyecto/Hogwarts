@@ -15,7 +15,7 @@ public class Persona {
     private int Edad;
     private String Casa;
     private String Tipo;
-    private String varita;
+    private String Varita;
     private String Deporte;
     private String Escoba;
     private String Pocion;
@@ -23,7 +23,7 @@ public class Persona {
     private String Hechizo;
     
         // get y setters
-    }
+    
     public String getNombre(){
     return this.Nombre;
     }
@@ -80,5 +80,4 @@ public class Persona {
     this.Hechizo=Hechizo;
     }
     
-    
-}
+  }  
