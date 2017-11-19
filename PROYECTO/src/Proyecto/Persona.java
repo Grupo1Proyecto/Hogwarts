@@ -24,6 +24,7 @@ public class Persona {
     
         // get y setters
     
+    
     public String getNombre(){
     return this.Nombre;
     }
@@ -79,5 +80,6 @@ public class Persona {
     public void setHechizo(String Hechizo){
     this.Hechizo=Hechizo;
     }
+    
     
   }  
