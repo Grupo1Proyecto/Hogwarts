@@ -9,6 +9,18 @@ package Proyecto;
  *
  * @author Admin
  */
-public class Normal {
+public class Normal extends Persona implements Volador {
+
+    @Override
+    public String volar() {
+        
+        return "Vuelo con mi escoba de modelo Nimbus 2000";
+        
+         }
+
+    @Override
+    public String despegar() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
     
 }
