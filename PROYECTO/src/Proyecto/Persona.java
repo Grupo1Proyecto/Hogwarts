@@ -22,6 +22,10 @@ public class Persona {
     private String Animal;
     private String Hechizo;
     
+    
+    public Persona(){
+   }
+    
         // get y setters
     
     
