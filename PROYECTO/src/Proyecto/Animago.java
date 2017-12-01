@@ -9,9 +9,19 @@ package Proyecto;
  *
  * @author Admin
  */
-public class Animago {
+public class Animago extends Persona implements Volador {
     
-    public void Despegar(){}
+    
+
+    @Override
+    public String volar() {
+        return "Vuelo conla ayuda de mi varita";
+    }
+
+    @Override
+    public String despegar() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
     
     
     
