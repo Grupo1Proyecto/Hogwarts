@@ -11,6 +11,9 @@ package Proyecto;
  */
 public interface Volador {
     
+    public String despegar();
+    public String volar();
+    
     
     
 }
