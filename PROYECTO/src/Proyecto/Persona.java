@@ -16,6 +16,7 @@ public class Persona {
     private String Casa;
     private String Tipo;
     private String Varita;
+    
     private String Deporte;
     private String Escoba;
     private String Pocion;
