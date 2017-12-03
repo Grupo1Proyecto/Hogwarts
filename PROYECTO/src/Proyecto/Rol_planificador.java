@@ -7,7 +7,7 @@
 
 package Proyecto;
 import java.util.Scanner;
-
+import java.util.ArrayList;
 
 public class Rol_planificador {
     public String materia1="Posiones";
@@ -28,7 +28,9 @@ public void runMenu (){
     while(!exit){
         MenuS();
         int choice =ChoiceM()-1;
-        System.out.println(choice);//////////
+        String materia=Arraysubject(choice);
+        System.out.println(materia);
+        
         
  }
 }    
@@ -58,4 +60,39 @@ private int ChoiceM(){
   return choice;         
 
 }
+
+public String Arraysubject(int x){
+    String ArrayS[]=new String[7];
+    ArrayS[0]=materia1;
+    ArrayS[1]=materia2;        
+    ArrayS[2]=materia3;
+    ArrayS[3]=materia4;
+    ArrayS[4]=materia5;
+    ArrayS[5]=materia6;
+    ArrayS[6]=materia7;
+    ArrayS[7]=materia8;
+    return ArrayS[x];
+       
 }
+
+ArrayList<String> ArregloLlenar = new ArrayList<String>();
+public ArrayList<String> ArrayLTeacher(ArrayList<String> a ,String x){
+
+
+if (!a.contains(x)){
+    a.add(x);
+    System.out.println("Materia  agregada");
+    return a;
+    }
+else if (a.contains(x)){
+    System.out.println("Materia ya existente");
+    
+}
+       return ArregloLlenar; 
+}
+
+
+
+
+}
+
